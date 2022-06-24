@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/WEB315_Summer22_Assignment.csproj": {}
+    "C:\\Users\\W0802991\\Documents\\GitHub\\WEB315_Summer22_Assignment\\WEB315_Summer22_Assignment.csproj": {}
   },
   "projects": {
-    "/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/WEB315_Summer22_Assignment.csproj": {
+    "C:\\Users\\W0802991\\Documents\\GitHub\\WEB315_Summer22_Assignment\\WEB315_Summer22_Assignment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/WEB315_Summer22_Assignment.csproj",
+        "projectUniqueName": "C:\\Users\\W0802991\\Documents\\GitHub\\WEB315_Summer22_Assignment\\WEB315_Summer22_Assignment.csproj",
         "projectName": "WEB315_Summer22_Assignment",
-        "projectPath": "/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/WEB315_Summer22_Assignment.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/obj/",
+        "projectPath": "C:\\Users\\W0802991\\Documents\\GitHub\\WEB315_Summer22_Assignment\\WEB315_Summer22_Assignment.csproj",
+        "packagesPath": "C:\\Users\\W0802991\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\W0802991\\Documents\\GitHub\\WEB315_Summer22_Assignment\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\W0802991\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,19 +49,19 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.*, )"
             },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.*, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.*, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.*, )"
             }
           },
           "imports": [
@@ -75,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
