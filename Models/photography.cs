@@ -17,5 +17,6 @@ namespace WEB315_Summer22_Assignment .Models
 
         [Display(Name = "Image Type")]
         public string Type{ get; set; } 
+        public string Rating { get; set; }
     }
 }
