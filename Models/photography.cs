@@ -10,7 +10,7 @@ namespace WEB315_Summer22_Assignment .Models
         public string Name{ get; set; } 
 
         [DataType(DataType.Date)]
-        public DateType Visited  { get; set; }
+        public DateTime Visited  { get; set; }
         public string Location{ get; set; }
         public string Type{ get; set; } 
     }
