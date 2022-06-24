@@ -27,28 +27,32 @@ namespace WEB315_Summer22_Assignment.Models
                         Name = "CN Tower",
                         Visited = DateTime.Parse("2022-1-3"),
                         Location = "Toronto",
-                        Type = "Building"
+                        Type = "Building",
+                        Rating = "A"
                     },
                     new photography
                     {
                         Name = "Chevrolet Corvette",
                         Visited = DateTime.Parse("2022-4-15"),
                         Location = "Mississuga",
-                        Type = "Car"
+                        Type = "Car",
+                        Rating = "C"                        
                     },
                     new photography
                     {
                         Name = "Sun Rise",
                         Visited = DateTime.Parse("2021-6-12"),
                         Location = "Punjab",
-                        Type = "Landscape"
+                        Type = "Landscape",
+                        Rating = "B"  
                     },
                     new photography
                     {
                         Name = "Snow Fall",
                         Visited = DateTime.Parse("2022-1-4"),
                         Location = "Brampton",
-                        Type = "Potrait"
+                        Type = "Potrait",
+                        Rating="A"
                     }
                 );
                 context.SaveChanges();
