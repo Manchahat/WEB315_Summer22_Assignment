@@ -1,8 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using RazorPagesMovie.Data;
+using WEB315_Summer22_Assignment.Models;
 using System;
 using System.Linq;
+
 
 namespace WEB315_Summer22_Assignment.Models
 {
@@ -24,8 +25,8 @@ namespace WEB315_Summer22_Assignment.Models
                     new photography
                     {
                         Name = "CN Tower",
-                        Visited = DateTime.Parse("toronto"),
-                        Location = "2022-1-3",
+                        Visited = DateTime.Parse("2022-1-3"),
+                        Location = "Toronto",
                         Type = "Building"
                     },
                     new photography
