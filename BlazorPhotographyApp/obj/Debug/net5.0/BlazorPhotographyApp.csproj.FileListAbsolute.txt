@@ -55,3 +55,5 @@
 /Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/BlazorPhotographyApp/obj/Debug/net5.0/BlazorPhotographyApp.pdb
 /Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/BlazorPhotographyApp/obj/Debug/net5.0/BlazorPhotographyApp.genruntimeconfig.cache
 /Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/BlazorPhotographyApp/obj/Debug/net5.0/BlazorPhotographyApp.csproj.CopyComplete
+/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/BlazorPhotographyApp/obj/Debug/net5.0/RazorDeclaration/Pages/Photographylists.razor.g.cs
+/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/BlazorPhotographyApp/obj/Debug/net5.0/Razor/Pages/Photographylists.razor.g.cs
