@@ -1,1 +1,13 @@
 @page "/Photographylists"
+
+<p> Displaying array list on the page  </p>
+<button @bind = photography > Click me </button>
+@foreach(var types in PhotographyType){
+    <p> @types </p>
+}
+@code{
+    string[] PhotographyType = new string[] {
+        "Landscape","Potrait","Car","Sunshine","Snow"
+        };
+    
+}

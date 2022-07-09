@@ -90,6 +90,17 @@ using BlazorPhotographyApp.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 8 "/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/BlazorPhotographyApp/Pages/Photographylists.razor"
+      
+    string[] PhotographyType = new string[] {
+        "Landscape","Potrait","Car","Sunshine","Snow"
+        };
+    
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
