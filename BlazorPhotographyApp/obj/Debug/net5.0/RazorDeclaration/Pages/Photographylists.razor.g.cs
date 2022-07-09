@@ -96,7 +96,10 @@ using BlazorPhotographyApp.Shared;
     string[] PhotographyType = new string[] {
         "Landscape","Potrait","Car","Sunshine","Snow"
         };
-    
+    private int photos = 0 ;
+    private void newPhotos(int newPhoto){
+        photos = newPhoto ;
+    }
 
 #line default
 #line hidden
