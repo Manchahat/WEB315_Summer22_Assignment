@@ -5,7 +5,13 @@
 @foreach(var types in PhotographyType){
     <p> @types </p>
 }
-<input type= "number" value ="5" /><button>Input Values</button>
+<input type= "number" value ="5" @onchange="@(p => newPhotos(Int32.Parse(p.Value.ToString())))"/><button>Input Values</button>
+@for(int a = 0 ; a < photos ; a++){
+    if (a >= 0 && a < 5 ) {
+        <p> @PhotographyType[a]</p>
+    }
+}
+
 @code{
     string[] PhotographyType = new string[] {
         "Landscape","Potrait","Car","Sunshine","Snow"
