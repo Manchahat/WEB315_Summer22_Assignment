@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MlKxaV+oUJBzJOq/iclEd5jYMzpZCVi4dN2MDM2gAF+YTqLUDhpF9GCpYVO84nPda5pxUOOMUpoXXqjiWo45Vg==",
+  "dgSpecHash": "OErIaqQ83s2QxGD2sitNDHh/HhWz52jPSjknSonLzfneRCUa9qJncC3OzJYeBLCk/1h6+jHNdo3JhoOhZJqn8g==",
   "success": true,
   "projectFilePath": "/Users/admin/Documents/GitHub/WEB315_Summer22_Assignment/BlazorWebAssemblySignalRApp/Client/BlazorWebAssemblySignalRApp.Client.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,15 @@
     "/Users/admin/.nuget/packages/microsoft.aspnetcore.components.web/5.0.13/microsoft.aspnetcore.components.web.5.0.13.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.aspnetcore.components.webassembly/5.0.13/microsoft.aspnetcore.components.webassembly.5.0.13.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/5.0.13/microsoft.aspnetcore.components.webassembly.devserver.5.0.13.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.connections.abstractions/5.0.0/microsoft.aspnetcore.connections.abstractions.5.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.http.connections.client/5.0.0/microsoft.aspnetcore.http.connections.client.5.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.http.connections.common/5.0.0/microsoft.aspnetcore.http.connections.common.5.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.http.features/5.0.0/microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.aspnetcore.metadata/5.0.13/microsoft.aspnetcore.metadata.5.0.13.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.signalr.client/5.0.0/microsoft.aspnetcore.signalr.client.5.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.signalr.client.core/5.0.0/microsoft.aspnetcore.signalr.client.core.5.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.signalr.common/5.0.0/microsoft.aspnetcore.signalr.common.5.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/microsoft.aspnetcore.signalr.protocols.json/5.0.0/microsoft.aspnetcore.signalr.protocols.json.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration/5.0.0/microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.extensions.configuration.binder/5.0.0/microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
@@ -30,6 +38,7 @@
     "/Users/admin/.nuget/packages/microsoft.jsinterop.webassembly/5.0.13/microsoft.jsinterop.webassembly.5.0.13.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/admin/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
+    "/Users/admin/.nuget/packages/system.threading.channels/5.0.0/system.threading.channels.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.13/microsoft.netcore.app.runtime.browser-wasm.5.0.13.nupkg.sha512"
   ],
   "logs": []
