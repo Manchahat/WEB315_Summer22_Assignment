@@ -12,7 +12,7 @@
 <div class="form-group">
     <label>
         Message:
-        <input @bind="messageInput" size="50" disabled="@(!IsConnected)" />
+        <input @onclick = "Others" @bind="messageInput" size="50" disabled="@(!IsConnected)" />
     </label>
 </div>
 <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
@@ -27,7 +27,9 @@
         <li>@message</li>
     }
 </ul>
-
+@if (!string.IsNullOrEmpty(userInput)){
+    <p> @userInput </p>
+}
 @code {
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
