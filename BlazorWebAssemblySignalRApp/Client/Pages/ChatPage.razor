@@ -49,7 +49,7 @@
 
         hubConnection.On<string>("UserTyping", (user) =>
         {
-            var encodedMsg = $"{user}";
+            var encodedMsg = $"{user} is typing a message";
             messages.Add(encodedMsg);
             StateHasChanged();
         });
