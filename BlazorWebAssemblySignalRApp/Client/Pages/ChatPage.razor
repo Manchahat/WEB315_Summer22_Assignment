@@ -16,6 +16,8 @@
     </label>
 </div>
 <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
+<button @onclick="Others" disabled="@(!IsConnected)">Send Others</button>
+<button @onclick="All" disabled="@(!IsConnected)">Send All</button>
 
 <hr>
 
@@ -45,11 +47,33 @@
             StateHasChanged();
         });
 
+        hubConnection.On<string>("UserTyping", (user) =>
+        {
+            var encodedMsg = $"{user}";
+            messages.Add(encodedMsg);
+            StateHasChanged();
+        });
+
+        hubConnection.On<string>("ReceiveAnonMessage", (message) =>
+        {
+            var encodedMsg = $"{message}";
+            messages.Add(encodedMsg);
+            StateHasChanged();
+        });
+
+
         await hubConnection.StartAsync();
     }
 
     async Task Send() =>
         await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+    
+    async Task Others() =>
+        await hubConnection.SendAsync("SendingOthers", userInput);
+
+    async Task All() =>
+        await hubConnection.SendAsync("SendingAll", userInput);
+
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
