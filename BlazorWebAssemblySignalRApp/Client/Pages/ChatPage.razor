@@ -58,7 +58,7 @@
 
         hubConnection.On<string>("ReceiveAnonMessage", (message) =>
         {
-            var encodedMsg = $"{message}";
+            var encodedMsg = $"Anonymous: {message}";
             messages.Add(encodedMsg);
             StateHasChanged();
         });
